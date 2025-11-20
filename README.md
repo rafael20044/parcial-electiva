@@ -45,4 +45,12 @@ act -W .github/workflows/ci-quality.yml
 # Ejecutar solo el job 'build'
 act -j build
 ```
+### Capturas de logs
+
+**Run exitoso:**  
+![Run exitoso](/img/exitoso.png)
+
+**Run fallido:**
+![Run fallido](/img/fallido.png)
+
 
