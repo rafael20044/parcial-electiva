@@ -30,4 +30,4 @@ jobs:
       - name: Generate coverage report
         run: mvn -B jacoco:report
       - name: Check coverage threshold
-        run: mvn -B jacoco:check
+        run: mvn -B verify
